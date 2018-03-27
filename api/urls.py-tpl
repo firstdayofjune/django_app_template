@@ -1,0 +1,8 @@
+from rest_framework import routers
+
+from . import views
+
+router = routers.DefaultRouter()
+#router.register(r'endpoint-name', views.MyViewSet, 'view-set-name')
+
+urlpatterns = router.urls

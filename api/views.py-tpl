@@ -1,0 +1,13 @@
+# for further reference regarding viewsets refer to:
+# http://www.django-rest-framework.org/api-guide/viewsets/
+from rest_framework import viewsets, filters
+from rest_framework.permissions import IsAuthenticated
+
+from . import serializers
+from .. import models
+
+
+# class MyViewSet(viewsets.ModelViewSet):
+# 	permission_classes = (IsAuthenticated,)
+# 	queryset = models.MyModel.objects.all()
+# 	serializer_class = serializers.MySerializer

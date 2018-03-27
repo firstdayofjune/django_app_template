@@ -1,0 +1,12 @@
+# for further reference regarding serialiers refer to:
+# http://www.django-rest-framework.org/api-guide/serializers/
+from rest_framework import serializers
+from rest_framework.reverse import reverse
+
+from .. import models
+
+
+# class MySerializer(serializers.ModelSerializer):
+# 	class Meta(object):
+# 		model = models.MyModel
+# 		fields = ['id', ]

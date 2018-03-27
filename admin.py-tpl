@@ -1,0 +1,6 @@
+from django.contrib import admin
+from . import models
+
+# Register your models here.
+# When adding foreign keys to the admin, consider the use of raw_id_fields for large databases:
+# https://docs.djangoproject.com/en/2.0/ref/contrib/admin/#django.contrib.admin.ModelAdmin.raw_id_fields

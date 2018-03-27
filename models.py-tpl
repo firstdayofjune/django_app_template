@@ -1,0 +1,7 @@
+from django.db import models
+from django.utils.translation import ugettext_lazy as _
+
+# for details on how to use the model_utils refer to:
+# https://django-model-utils.readthedocs.io/en/latest/models.html
+from model_utils.models import StatusModel, TimeStampedModel
+from model_utils import Choices
